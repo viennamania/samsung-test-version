@@ -91,4 +91,62 @@ export const TierData: Array<TierDataTypes> = [
     amount: 3400,
     walletPerCap: null,
   },
+  {
+    tier: 13,
+    price: '0.1511',
+    whitelist: 0,
+    amount: 3300,
+    walletPerCap: null,
+  },
+  {
+    tier: 14,
+    price: '0.1632',
+    whitelist: 0,
+    amount: 3200,
+    walletPerCap: null,
+  },
+  {
+    tier: 15,
+    price: '0.1762',
+    whitelist: 0,
+    amount: 3100,
+    walletPerCap: null,
+  },
+  {
+    tier: 16,
+    price: '0.1903',
+    whitelist: 0,
+    amount: 3000,
+    walletPerCap: null,
+  },
+  {
+    tier: 17,
+    price: '0.2056',
+    whitelist: 0,
+    amount: 2900,
+    walletPerCap: null,
+  },
+  {
+    tier: 18,
+    price: '0.2220',
+    whitelist: 0,
+    amount: 2800,
+    walletPerCap: null,
+  },
+  {
+    tier: 19,
+    price: '0.2398',
+    whitelist: 0,
+    amount: 2700,
+    walletPerCap: null,
+  },
+  {
+    tier: 20,
+    price: '0.2589',
+    whitelist: 0,
+    amount: 2600,
+    walletPerCap: null,
+  }
+  
+  
 ];
