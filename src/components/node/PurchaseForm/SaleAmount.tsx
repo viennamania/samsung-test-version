@@ -45,6 +45,15 @@ const SaleAmount = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [balance, claimedAmount, nfts, tier]);
 
+
+
+  //console.log("balance", balance);
+  //console.log("claimedAmount", claimedAmount);
+  //console.log("nfts", nfts);
+  //console.log("tier", tier);
+
+
+
   return (
     <CardWrapper className="mb-3">
       <div className="flex items-center justify-between">

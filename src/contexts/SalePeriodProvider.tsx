@@ -17,12 +17,12 @@ dayjs.extend(advancedFormat);
 
 //export const whitelistDateDefault = '2024-07-20T19:29:00Z'; // whitelist date
 
-export const whitelistDateDefault = '2024-08-20T19:29:00Z'; // whitelist date
+export const whitelistDateDefault = '2024-08-07T19:29:00Z'; // whitelist date
 
 
 ////export const publicDateDefault = '2024-07-28T19:30:00Z';  // public date
 
-export const publicDateDefault = '2024-08-28T19:30:00Z';  // public date
+export const publicDateDefault = '2024-08-07T19:30:00Z';  // public date
 
 
 
