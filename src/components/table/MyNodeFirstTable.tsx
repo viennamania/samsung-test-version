@@ -57,7 +57,9 @@ const MyNodeFirstTable = () => {
 
         return (
           <div className="w-full min-w-[100px] p-4 text-right">
-            <p>{quantityOwned * parseFloat(price)}</p>
+            <p>{
+              Number(quantityOwned * parseFloat(price)).toFixed(4)
+            }</p>
           </div>
         );
       },
