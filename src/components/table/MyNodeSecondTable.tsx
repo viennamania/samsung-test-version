@@ -5,6 +5,7 @@ import {
   getPaginationRowModel,
   useReactTable,
 } from '@tanstack/react-table';
+
 import {useState} from 'react';
 
 //import {useWsPrice} from '../../contexts/WsProvider';
@@ -30,7 +31,14 @@ import {TierData, TierDataTypes} from '../../constants/tiers';
 // };
 
 const MyNodeSecondTable = () => {
+
+  
   const [data] = useState([...TierData]);
+
+ 
+
+
+
 
   const columns = [
     {
@@ -80,12 +88,51 @@ const MyNodeSecondTable = () => {
     },
   ];
 
+
+
+  // row count is 20
+
   const table = useReactTable({
+
     data,
     columns,
+   
+
     getCoreRowModel: getCoreRowModel(),
+
+
     getPaginationRowModel: getPaginationRowModel(),
+
+    initialState: {
+
+      pagination: {
+        pageIndex: 0,
+        pageSize: 20,
+      },
+
+    },
+
+
   });
+
+
+
+
+  console.log("data", data);
+
+  // table.getRowModel().rows
+
+  console.log("table.getRowModel()).rows", table.getRowModel().rows);
+
+  // table.getRowModel().rows is 10
+  // make table.getRowModel().rows to 20
+
+
+
+
+
+
+
 
   return (
     <div className="no-scrollbar overflow-auto">

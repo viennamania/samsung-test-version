@@ -13,6 +13,7 @@ const SaleInfoDetail = () => {
   const {data: claimedAmount} = useClaimedAmount();
   const [percentage, setPercentage] = useState('0%');
 
+  
   useEffect(() => {
     if (!claimedAmount) return;
     const width = Math.floor(
@@ -20,6 +21,7 @@ const SaleInfoDetail = () => {
     );
     setPercentage(`${width}%`);
   }, [tier, claimedAmount]);
+
 
   return (
     <CardWrapper className="mb-3 lg:flex lg:justify-between lg:gap-3">

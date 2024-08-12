@@ -11,6 +11,7 @@ import {useClaimedAmount} from '../../apis';
 import {formState} from '../../atoms/form';
 
 const TierList = () => {
+  
   const {tiersContainerRef, tiersListRef, scrollBackwardRef, scrollForwardRef} =
     useTierList();
   const {data: claimedAmount} = useClaimedAmount();
